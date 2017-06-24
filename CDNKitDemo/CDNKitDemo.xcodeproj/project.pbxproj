@@ -20,6 +20,7 @@
 		1220E50A1E445F3800655488 /* NSString+CDNEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1220E5091E445F3800655488 /* NSString+CDNEncrypt.m */; };
 		1220E50D1E448E6F00655488 /* NSString+CDNRegExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1220E50C1E448E6F00655488 /* NSString+CDNRegExp.m */; };
 		124347C81E48089000B75D31 /* CDNGIFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124347C71E48089000B75D31 /* CDNGIFView.m */; };
+		12FA6C7B1EFE4F87007E64E5 /* CDNInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FA6C7A1EFE4F87007E64E5 /* CDNInsetLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		1220E50C1E448E6F00655488 /* NSString+CDNRegExp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDNRegExp.m"; sourceTree = "<group>"; };
 		124347C61E48089000B75D31 /* CDNGIFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNGIFView.h; sourceTree = "<group>"; };
 		124347C71E48089000B75D31 /* CDNGIFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNGIFView.m; sourceTree = "<group>"; };
+		12FA6C791EFE4F87007E64E5 /* CDNInsetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNInsetLabel.h; sourceTree = "<group>"; };
+		12FA6C7A1EFE4F87007E64E5 /* CDNInsetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNInsetLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 				121281371E457F5B007C834E /* UIImage+CDNKit.m */,
 				124347C61E48089000B75D31 /* CDNGIFView.h */,
 				124347C71E48089000B75D31 /* CDNGIFView.m */,
+				12FA6C791EFE4F87007E64E5 /* CDNInsetLabel.h */,
+				12FA6C7A1EFE4F87007E64E5 /* CDNInsetLabel.m */,
 			);
 			path = CDNKit;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			files = (
 				1220E50D1E448E6F00655488 /* NSString+CDNRegExp.m in Sources */,
 				121281381E457F5B007C834E /* UIImage+CDNKit.m in Sources */,
+				12FA6C7B1EFE4F87007E64E5 /* CDNInsetLabel.m in Sources */,
 				1220E4D51E442ED200655488 /* ViewController.m in Sources */,
 				1220E50A1E445F3800655488 /* NSString+CDNEncrypt.m in Sources */,
 				1220E4D21E442ED200655488 /* AppDelegate.m in Sources */,
