@@ -20,7 +20,12 @@
 		1220E50A1E445F3800655488 /* NSString+CDNEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1220E5091E445F3800655488 /* NSString+CDNEncrypt.m */; };
 		1220E50D1E448E6F00655488 /* NSString+CDNRegExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1220E50C1E448E6F00655488 /* NSString+CDNRegExp.m */; };
 		124347C81E48089000B75D31 /* CDNGIFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124347C71E48089000B75D31 /* CDNGIFView.m */; };
+		129820E21FBDAECE009811C6 /* CDNDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 129820E11FBDAECE009811C6 /* CDNDropDownMenu.m */; };
+		129820E51FBDB6A4009811C6 /* CDNDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 129820E41FBDB6A4009811C6 /* CDNDeviceModel.m */; };
+		129820E81FBDB8B5009811C6 /* CDNRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 129820E71FBDB8B5009811C6 /* CDNRightImageButton.m */; };
+		129820EB1FBDBE34009811C6 /* CDNNoHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 129820EA1FBDBE34009811C6 /* CDNNoHighlightButton.m */; };
 		12FA6C7B1EFE4F87007E64E5 /* CDNInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FA6C7A1EFE4F87007E64E5 /* CDNInsetLabel.m */; };
+		44BD99D9ACE26D2ADB8A564A /* libPods-CDNKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DF9B72FD17FF03279FBEAD /* libPods-CDNKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +75,22 @@
 		1220E50C1E448E6F00655488 /* NSString+CDNRegExp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDNRegExp.m"; sourceTree = "<group>"; };
 		124347C61E48089000B75D31 /* CDNGIFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNGIFView.h; sourceTree = "<group>"; };
 		124347C71E48089000B75D31 /* CDNGIFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNGIFView.m; sourceTree = "<group>"; };
+		129334F71FBE92AC00A3E3E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		129820E01FBDAECE009811C6 /* CDNDropDownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNDropDownMenu.h; sourceTree = "<group>"; };
+		129820E11FBDAECE009811C6 /* CDNDropDownMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNDropDownMenu.m; sourceTree = "<group>"; };
+		129820E31FBDB6A4009811C6 /* CDNDeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNDeviceModel.h; sourceTree = "<group>"; };
+		129820E41FBDB6A4009811C6 /* CDNDeviceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNDeviceModel.m; sourceTree = "<group>"; };
+		129820E61FBDB8B5009811C6 /* CDNRightImageButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNRightImageButton.h; sourceTree = "<group>"; };
+		129820E71FBDB8B5009811C6 /* CDNRightImageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNRightImageButton.m; sourceTree = "<group>"; };
+		129820E91FBDBE34009811C6 /* CDNNoHighlightButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNNoHighlightButton.h; sourceTree = "<group>"; };
+		129820EA1FBDBE34009811C6 /* CDNNoHighlightButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNNoHighlightButton.m; sourceTree = "<group>"; };
 		12FA6C791EFE4F87007E64E5 /* CDNInsetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNInsetLabel.h; sourceTree = "<group>"; };
 		12FA6C7A1EFE4F87007E64E5 /* CDNInsetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNInsetLabel.m; sourceTree = "<group>"; };
+		2F641559FFE348BCA62AC375 /* Pods-CDNKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDNKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDNKitDemo/Pods-CDNKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		32177CE454EACA94447F731F /* libPods-CDNKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDNKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5132F2674884B971027A6410 /* libPods-CDNKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDNKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DF9B72FD17FF03279FBEAD /* libPods-CDNKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDNKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77CD6B0D1056BCD5BF311D4 /* Pods-CDNKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDNKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDNKitDemo/Pods-CDNKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BD99D9ACE26D2ADB8A564A /* libPods-CDNKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +127,8 @@
 				1220E4E61E442ED200655488 /* CDNKitDemoTests */,
 				1220E4F11E442ED200655488 /* CDNKitDemoUITests */,
 				1220E4CB1E442ED200655488 /* Products */,
+				FD685EC158B4880F12D23689 /* Pods */,
+				CFDA33E4D9D959239F65BF48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				1220E4CE1E442ED200655488 /* main.m */,
+				129334F71FBE92AC00A3E3E8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,8 +203,35 @@
 				124347C71E48089000B75D31 /* CDNGIFView.m */,
 				12FA6C791EFE4F87007E64E5 /* CDNInsetLabel.h */,
 				12FA6C7A1EFE4F87007E64E5 /* CDNInsetLabel.m */,
+				129820E01FBDAECE009811C6 /* CDNDropDownMenu.h */,
+				129820E11FBDAECE009811C6 /* CDNDropDownMenu.m */,
+				129820E31FBDB6A4009811C6 /* CDNDeviceModel.h */,
+				129820E41FBDB6A4009811C6 /* CDNDeviceModel.m */,
+				129820E61FBDB8B5009811C6 /* CDNRightImageButton.h */,
+				129820E71FBDB8B5009811C6 /* CDNRightImageButton.m */,
+				129820E91FBDBE34009811C6 /* CDNNoHighlightButton.h */,
+				129820EA1FBDBE34009811C6 /* CDNNoHighlightButton.m */,
 			);
 			path = CDNKit;
+			sourceTree = "<group>";
+		};
+		CFDA33E4D9D959239F65BF48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92DF9B72FD17FF03279FBEAD /* libPods-CDNKitDemo.a */,
+				32177CE454EACA94447F731F /* libPods-CDNKitDemoTests.a */,
+				5132F2674884B971027A6410 /* libPods-CDNKitDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD685EC158B4880F12D23689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B77CD6B0D1056BCD5BF311D4 /* Pods-CDNKitDemo.debug.xcconfig */,
+				2F641559FFE348BCA62AC375 /* Pods-CDNKitDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1220E4F71E442ED300655488 /* Build configuration list for PBXNativeTarget "CDNKitDemo" */;
 			buildPhases = (
+				9910186E5FEB81DDB0CB7AC1 /* [CP] Check Pods Manifest.lock */,
 				1220E4C61E442ED200655488 /* Sources */,
 				1220E4C71E442ED200655488 /* Frameworks */,
 				1220E4C81E442ED200655488 /* Resources */,
+				FA35185FC038D54B3C8433CA /* [CP] Embed Pods Frameworks */,
+				C3E964E9413C932AA6465B1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,17 +366,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9910186E5FEB81DDB0CB7AC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CDNKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E964E9413C932AA6465B1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDNKitDemo/Pods-CDNKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA35185FC038D54B3C8433CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDNKitDemo/Pods-CDNKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1220E4C61E442ED200655488 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129820E51FBDB6A4009811C6 /* CDNDeviceModel.m in Sources */,
 				1220E50D1E448E6F00655488 /* NSString+CDNRegExp.m in Sources */,
+				129820E81FBDB8B5009811C6 /* CDNRightImageButton.m in Sources */,
 				121281381E457F5B007C834E /* UIImage+CDNKit.m in Sources */,
 				12FA6C7B1EFE4F87007E64E5 /* CDNInsetLabel.m in Sources */,
 				1220E4D51E442ED200655488 /* ViewController.m in Sources */,
 				1220E50A1E445F3800655488 /* NSString+CDNEncrypt.m in Sources */,
+				129820E21FBDAECE009811C6 /* CDNDropDownMenu.m in Sources */,
 				1220E4D21E442ED200655488 /* AppDelegate.m in Sources */,
+				129820EB1FBDBE34009811C6 /* CDNNoHighlightButton.m in Sources */,
 				124347C81E48089000B75D31 /* CDNGIFView.m in Sources */,
 				1220E4CF1E442ED200655488 /* main.m in Sources */,
 				1220E5071E443D5F00655488 /* UIView+CDNKit.m in Sources */,
@@ -473,9 +581,12 @@
 		};
 		1220E4F81E442ED300655488 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77CD6B0D1056BCD5BF311D4 /* Pods-CDNKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SVA7L7JMDJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CDNKitDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = CDNKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chendongnan.CDNKitDemo;
@@ -485,9 +596,12 @@
 		};
 		1220E4F91E442ED300655488 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F641559FFE348BCA62AC375 /* Pods-CDNKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SVA7L7JMDJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CDNKitDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = CDNKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chendongnan.CDNKitDemo;

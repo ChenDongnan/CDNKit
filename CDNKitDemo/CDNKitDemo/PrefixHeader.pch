@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  CDNKitDemo
+//
+//  Created by 陈栋楠 on 2017/11/17.
+//  Copyright © 2017年 陈栋楠. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "CDNDeviceModel.h"
+#endif /* PrefixHeader_pch */
